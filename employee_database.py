@@ -1,4 +1,10 @@
+
+# TODO: use shebang statement
+
 import mysql.connector
+
+# TODO: separate functions for different tasks
+# TODO: comments similar to the comments mentioned in argparseexample.py
 
 mydb = mysql.connector.connect(host ="localhost", user="root", passwd ="Gemini@123", database ="test_divyanshi")
 mycursor = mydb.cursor()
